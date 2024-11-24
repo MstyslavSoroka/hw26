@@ -1,4 +1,4 @@
-import { data, setData } from './data';
+import { data, setData } from './data.js';
 
 const btn = document.getElementById('btn');
 const form = document.getElementById('form');

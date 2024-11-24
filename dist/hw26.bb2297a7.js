@@ -138,7 +138,7 @@ function setData(name, email, pass) {
 },{}],"src/hw26.js":[function(require,module,exports) {
 "use strict";
 
-var _data = require("./data");
+var _data = require("./data.js");
 var btn = document.getElementById('btn');
 var form = document.getElementById('form');
 btn.addEventListener('click', function (e) {
@@ -150,7 +150,7 @@ btn.addEventListener('click', function (e) {
   console.log(_data.data);
   form.reset();
 });
-},{"./data":"src/data.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./data.js":"src/data.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -175,7 +175,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63244" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50365" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
